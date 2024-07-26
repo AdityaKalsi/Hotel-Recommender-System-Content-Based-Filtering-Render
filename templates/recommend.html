@@ -1,0 +1,54 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="input_form">
+    <form action=" " method="post">
+        {{ form.hidden_tag() }}
+        <div>
+            {{ form.country.label }}
+            {{ form.country }}
+            
+        </div>
+        <br>
+        <div>
+            {{ form.city.label }}
+            {{ form.city }}
+            {% if form.city.errors %}
+                {% for errors in form.city.errors %}
+                    {{ errors }}
+                {% endfor %}
+            {% endif %}
+        </div>
+        <br>
+        <div>
+            {{ form.property.label }}
+            {{ form.property }}
+        </div>
+        <br>
+        <div>
+            {{ form.room.label }}
+            {{ form.room }}
+        </div>
+        <br>
+        <div>
+            {{ form.submit }}
+        </div>
+    </form>
+</div>
+    <div class="results">
+        {% if recommendations %}
+            {% for hotel in recommendations %}
+                <div class="hotels">
+                    <h4>Hotel name: {{ hotel[0] }}</h4>
+                    <h4>Room : {{ hotel[1] }}</h4>
+                    <h4>Rating : {{ hotel[2] }}</h4>
+                </div>
+                <br>
+            {% endfor %}
+        {% else %}
+            <div class="error">
+                <p>Sorry! No results available</p>
+            </div>
+        {% endif %}
+    </div> 
+{% endblock %}

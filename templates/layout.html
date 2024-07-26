@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <style>
+        body{
+            background-color: rgb(15, 15, 85);
+        }
+        .input_form{
+            background-color: aliceblue;
+            /*display: flex;
+            justify-content: center;*/
+            font-size: larger;
+            width: 900px;
+            margin: auto ;
+            display: flex;
+            align-items: center;
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid rgb(15, 15, 85);
+        }
+        .results{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            gap: 30px;
+            border: 2px solid rgb(15, 15, 85);
+        }
+        .hotels{
+            background-color: aliceblue;
+            width: 300px;
+            padding: 10px;
+            height: 150px;
+            border-radius: 10px;
+            border: 2px solid rgb(15, 15, 85);
+        }
+        .title{
+            color: aliceblue;
+            margin-left: 550px;
+        }
+        .error{
+            color: aliceblue;
+            font-size: larger;
+        }
+        .text{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title">Welcome to the {{title}} page!!</h2>
+
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
