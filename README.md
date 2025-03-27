@@ -22,7 +22,7 @@ The recommendation engine ensures personalized and location-specific suggestions
 5. **Hotel Recommendations**: The top recommended hotels are presented to the user based on similarity scores.  
 6. **User Selection**: The user can browse through the recommended hotels and make a final selection.  
 
-![Project Flow](https://github.com/AdityaKalsi/Self-Driving-Car-Prototype/blob/2071cf620be1727cdd62a4ed12144a8513221779/Project%20flow.png)
+![Project Flow](https://github.com/AdityaKalsi/Hotel-Recommender-System-Content-Based-Filtering-Render/blob/3835ac7eb64b03546c6a6c972ae85168eb84e455/Hotel%predict.png)
 
 ## **Unique Idea Brief**  
 
