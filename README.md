@@ -22,7 +22,7 @@ The recommendation engine ensures personalized and location-specific suggestions
 5. **Hotel Recommendations**: The top recommended hotels are presented to the user based on similarity scores.  
 6. **User Selection**: The user can browse through the recommended hotels and make a final selection.  
 
-![Project Flow](https://github.com/AdityaKalsi/Hotel-Recommender-System-Content-Based-Filtering-Render/blob/3835ac7eb64b03546c6a6c972ae85168eb84e455/Hotel%predict.png)
+![Project Flow](https://github.com/AdityaKalsi/Hotel-Recommender-System-Content-Based-Filtering-Render/blob/0c127b7fa4870ca72421dbfe59a13619a0c92cbe/Hotel%20predict%202.png)
 
 ## **Unique Idea Brief**  
 
