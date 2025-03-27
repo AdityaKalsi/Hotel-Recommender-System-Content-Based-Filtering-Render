@@ -11,7 +11,7 @@ The recommendation engine ensures personalized and location-specific suggestions
 - **Secure and scalable system: Ensures fast processing and efficient storage of hotel data for seamless recommendations.
 - **Easy-to-use interface with intuitive navigation: Provides a smooth user experience with clear and responsive design.
 
-![Project Flow](https://github.com/AdityaKalsi/Self-Driving-Car-Prototype/blob/2071cf620be1727cdd62a4ed12144a8513221779/Project%20flow.png)
+![Project Flow](https://github.com/AdityaKalsi/Hotel-Recommender-System-Content-Based-Filtering-Render/blob/3835ac7eb64b03546c6a6c972ae85168eb84e455/Hotel%20predict.png)
 
 ## **Step-by-Step Process**  
 
